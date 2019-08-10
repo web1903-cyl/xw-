@@ -1,0 +1,45 @@
+.u-wrp-bnr {
+  width: 100%;
+  height: 400rpx;
+  display: block;
+  background: #f0f0f0;
+}
+.u-img-slide {
+  width: 100%;
+  height:100%;
+}
+
+.list{
+  margin-top:10px;
+}
+.movie{
+  width:175px;
+  margin-left:3px;
+  margin-bottom:3px;
+  float:left;
+  border:1px solid gray;
+  border-radius:5%;
+}
+.img{
+  width:170px;
+  height:170px;
+  margin-top:10px;
+  padding:0px 1px;
+}
+.title{
+  font-size:17px;
+  font-weight: bold;
+  margin-left:3px;
+}
+.score{
+  color:darkorange;
+  margin-left:5px;
+}
+.movie-comment{
+  width:175px;
+  height:60rpx;/*按钮高度*/
+  background:#e54847;/*按钮背景颜色*/
+  color:#fff;/*按钮文字颜色*/
+  font-size:26rpx;/*文字大小*/
+  margin-top:20rpx;/*与文字距离*/
+}

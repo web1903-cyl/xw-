@@ -1,0 +1,9 @@
+<!--pages/homework/homework.wxml-->
+<text>pages/homework/homework.wxml</text>
+<view bindtap='myupload'>上传文件</view>
+<view bindtap='showPic'>显示图片</view>
+<view>
+    <image wx:for="{{list}}"
+    wx:key="index"
+    src="{{item.fileID}}"></image>
+</view>

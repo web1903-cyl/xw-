@@ -1,0 +1,9 @@
+/* pages/mymap1/mymap1.wxss */
+.button{
+  width:175px;
+  height:60rpx;/*按钮高度*/
+  background:green;/*按钮背景颜色*/
+  color:#fff;/*按钮文字颜色*/
+  font-size:26rpx;/*文字大小*/
+  margin-top:20rpx;/*与文字距离*/
+}

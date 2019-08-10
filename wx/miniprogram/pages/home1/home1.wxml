@@ -1,0 +1,20 @@
+<van-search placeholder="请输入搜索关键词" />
+<swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+  <block wx:for="{{bnrUrl}}" wx:key="index">
+    <swiper-item>
+      <image src='{{item.url}}' class='u-img-slide' mode='aspectFill'></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="list">
+  <view class="movie" wx:for="{{list}}" wx:key="index">
+    <image class="img" src="{{item.images.small}}"></image>
+    <view class="info">
+      <view class="title">{{item.title}}</view>
+      <view class="score">{{item.rating.average}}分</view>
+    </view>
+    <button class='movie-comment' bindtap='jumpComment' data-id="{{item.id}}">详情  </button>
+    <view style='clear:both;'></view>
+  </view>
+</view>

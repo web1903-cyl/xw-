@@ -1,0 +1,57 @@
+/* pages/comment/comment.wxss */
+/*1.电影背景图片，虚化效果*/
+.detail-container{
+  height:400rpx;/*图片高度*/
+  filter:blur(10rpx);/*模糊滤镜*/
+  opacity:0.9;/*透明度*/
+}
+/*2：电影背景遮罩层,显示背景底层*/
+.detail-mask{
+  position:absolute;/*绝对定位*/
+  width:100%;
+  height:400rpx;
+  background: #333;
+  top:0;
+  left:0;
+  z-index:-1;
+}
+/*3：电影的详细信息*/
+.detail-info{
+  position:absolute;/*定位*/
+  display:flex; /*弹性布局*/
+  top:0;
+  left:0;
+  width:100%;
+  height:400rpx;/*高度遮罩层一致*/
+  padding:20rpx;/*内补丁*/
+}
+/*4:左侧大图*/
+.detail-img{
+  width:280rpx;
+  height:90%;
+  margin-right:24rpx;
+}
+/*5：右侧区域*/
+.detail{
+  flex-grow:1;/*文字占满剩余空间*/
+  line-height:60rpx;
+  color:#fff;
+  font-size:24rpx;
+}
+/*6：评分的样式*/
+.detail-sc{
+  color:#fc0;
+  font-size:36rpx;
+}
+/*7：电影描述*/
+.desc{
+  padding:20rpx;
+  font-size:24rpx;
+  color:#555;
+}
+/*8.预览图片*/
+.comment-img{
+  width:200rpx;   /*图片宽度高度*/
+  height:200rpx;
+  margin-right:20rpx;/*外边距*/
+}

@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home1/home1",
+    "pages/home/home",
+    "pages/mymovie/mymovie",
+    "pages/mymap1/mymap1",
+    "pages/comment/comment",
+    "pages/homework/homework"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/home1/home1",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home_active.png"
+      },
+      {
+      "pagePath": "pages/home/home",
+      "text": "电影",
+      "iconPath": "images/movie.png",
+      "selectedIconPath": "images/movie_active.png"
+      },
+      {
+        "pagePath": "pages/mymap1/mymap1",
+        "text": "地图",
+        "iconPath": "images/map.png",
+        "selectedIconPath": "images/map_active.png"
+      },
+      {
+        "pagePath": "pages/mymovie/mymovie",
+        "text": "评论",
+        "iconPath": "images/love.png",
+        "selectedIconPath": "images/love_active.png"
+      }
+    ]
+  }
+}
